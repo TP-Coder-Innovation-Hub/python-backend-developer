@@ -2,7 +2,7 @@
 
 ## Context
 
-This repo is part of the TP Coder Innovation Hub learning platform. It serves as a fundamentals guide for Python backend development. The primary content lives in `README.md`, with this file instructing AI assistants on how to help learners effectively.
+This repo is part of the TP Coder Innovation Hub learning platform. It serves as a directory-per-topic learning path for Python backend development. Content is organized into numbered directories from foundations through capstone, with `README.md` as the navigation page.
 
 ## Audience
 
@@ -24,7 +24,7 @@ When a learner doesn't specify their level, ask. One sentence is enough: "Are yo
   - "If you know Go, Python's multiprocessing is similar to goroutines in concept but much heavier weight."
 - **Point out common mistakes before the learner makes them.** If they're writing a function with a list default argument, warn them about mutable defaults.
 - **Suggest exercises** that reinforce the concept being discussed. Small, focused exercises beat large projects for learning.
-- **Reference the README.md sections** when relevant: "Section 3 covers concurrency models -- the decision flowchart there might help you choose."
+- **Reference the learning path files** when relevant: "The concurrency model topic in `02-core-language/05-concurrency-model.md` covers this -- the decision table there might help you choose."
 
 ## How NOT to Help
 
@@ -38,7 +38,7 @@ When a learner doesn't specify their level, ask. One sentence is enough: "Are yo
   - Use `list[str]` instead of `List[str]` (since Python 3.9)
   - Use `X | Y` instead of `Union[X, Y]` (since Python 3.10)
   - Use `from __future__ import annotations` for forward references
-- Do NOT recommend patterns that contradict the README.md guidance.
+- Do NOT recommend patterns that contradict the learning path content in the topic files.
 - Do NOT suggest installing packages globally. Always work within a project context.
 
 ## Key Concepts to Emphasize
@@ -107,26 +107,44 @@ Follow these guidelines when generating or reviewing Python code:
 
 ## Repository Structure
 
-As the repo grows, the expected structure is:
+The learning path is organized as a directory-per-topic structure:
 
 ```
 python-backend-developer/
-  README.md              # This fundamentals guide (you are here)
-  AGENTS.md              # Instructions for AI assistants (this file)
-  .pre-commit-config.yaml # Pre-commit hooks configuration
-  pyproject.toml         # Project metadata and tool configuration (uv, ruff)
-  uv.lock                # Locked dependencies (managed by uv, do not edit manually)
-  src/                   # Source code for example applications
-    examples/            # Code examples referenced in README.md
-      concurrency/       # Threading, multiprocessing, asyncio examples
-      fastapi/           # FastAPI example application
-      typing/            # Type hint examples
-  exercises/             # Practice exercises for learners
-    01-concurrency/      # Concurrency exercises
-    02-fastapi/          # FastAPI exercises
-    03-typing/           # Type system exercises
-  tests/                 # Tests for example code
-  assets/                # Diagrams and images referenced in README.md
+  README.md                          # Navigation page with learning path table
+  AGENTS.md                          # Instructions for AI assistants (this file)
+  00-foundations/                    # Programming fundamentals
+    01-what-is-programming.md        # What code does, how humans instruct machines
+    02-paradigms.md                  # Imperative, OOP, functional, procedural
+    03-sequential-decision-iteration.md  # The 3 building blocks of all programs
+    04-compiler-vs-interpreter.md    # How code becomes execution
+    05-what-is-python.md             # History, design philosophy, where Python fits
+    06-why-python-why-not-x.md       # Honest comparison: Python vs Go vs Rust vs Java vs Node
+  01-first-code/                     # Writing your first Python programs
+    01-setup.md                      # Install Python, VS Code, run first program
+    02-variables-and-types.md        # Variables, dynamic typing, common types
+    03-control-flow.md               # if/elif/else, for, while, match/case
+    04-functions.md                  # def, parameters, return, *args/**kwargs
+    05-data-structures.md            # list, dict, set, tuple
+  02-core-language/                  # Core Python concepts
+    01-oop.md                        # Classes, objects, inheritance, composition
+    02-error-handling.md             # try/except/finally, custom exceptions
+    03-modules-and-packages.md       # import, pip/uv, virtual environments, pyproject.toml
+    04-type-hints.md                 # Type annotations, Pyright, Pydantic preview
+    05-concurrency-model.md          # Threading, multiprocessing, asyncio, GIL
+  03-backend-fundamentals/           # Building backend services
+    01-http-and-web-servers.md       # HTTP request/response, methods, status codes
+    02-rest-api-design.md            # Resources, verbs, pagination, error responses
+    03-your-first-api.md             # Build a minimal API with FastAPI
+    04-database-access.md            # SQL basics, SQLAlchemy ORM, Alembic migrations
+    05-authentication.md             # Sessions, JWT, OAuth concepts
+  04-production/                     # Production readiness
+    01-testing.md                    # pytest, unit vs integration tests
+    02-logging-and-monitoring.md     # Structured logging, health checks
+    03-configuration.md              # Environment variables, .env, settings classes
+    04-deployment.md                 # Docker, CI/CD, cloud deployment
+  05-capstone/                       # Final project
+    README.md                        # Project spec: Task Management API
 ```
 
-When adding new content, follow this structure. Each exercise should have a `README.md` with instructions and a `solution/` directory with the reference implementation.
+When adding new content, add a new numbered file in the appropriate phase directory. Follow the naming convention `NN-topic-name.md`. Each file should be 200-500 words, concise, and standalone.
