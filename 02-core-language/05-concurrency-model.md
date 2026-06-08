@@ -6,7 +6,25 @@ Python gives you three main concurrency models. Choosing the right one is a crit
 
 ## The GIL (Global Interpreter Lock)
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — Python concurrency models GIL threading multiprocessing asyncio
+```mermaid
+graph TD
+    subgraph Threading
+        T1[Thread 1] --> GIL[GIL - only 1 runs at a time]
+        T2[Thread 2] --> GIL
+        T3[Thread 3] --> GIL
+        GIL --> CPU1[1 CPU Core]
+    end
+    subgraph Multiprocessing
+        P1[Process 1] --> CPU2[CPU Core 1]
+        P2[Process 2] --> CPU3[CPU Core 2]
+        P3[Process 3] --> CPU4[CPU Core 3]
+    end
+    subgraph AsyncIO
+        E1[Event Loop] --> A1[Task 1 I/O wait]
+        E1 --> A2[Task 2 I/O wait]
+        E1 --> A3[Task 3 I/O wait]
+    end
+```
 
 ``
 

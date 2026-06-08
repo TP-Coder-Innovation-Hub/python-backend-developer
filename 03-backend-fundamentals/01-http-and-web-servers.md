@@ -10,7 +10,14 @@ When you type `https://example.com/users` into a browser and press Enter, here's
 
 HTTP (HyperText Transfer Protocol) is the language of the web. Every website, every API, every mobile app backend uses it.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — HTTP request response cycle browser server web server
+```mermaid
+sequenceDiagram
+    participant B as Browser
+    participant S as Web Server
+    B->>S: HTTP Request (GET /api/users)
+    S->>S: Route → Handler → Database
+    S-->>B: HTTP Response (200 OK + JSON)
+```
 
 ## HTTP Request
 

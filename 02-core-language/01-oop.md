@@ -115,7 +115,22 @@ print(isinstance(cat, Animal))  # True
 
 ## Composition
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — inheritance vs composition UML class diagram Car Engine
+```mermaid
+classDiagram
+    class Vehicle {
+        +start()
+        +stop()
+    }
+    class Car {
+        +drive()
+    }
+    class Engine {
+        +horsepower: int
+        +ignite()
+    }
+    Vehicle <|-- Car : inheritance
+    Car *-- Engine : composition
+```
 
 Often better than inheritance: objects contain other objects instead of inheriting from them.
 

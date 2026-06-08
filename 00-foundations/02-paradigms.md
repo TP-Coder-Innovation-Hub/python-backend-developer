@@ -6,7 +6,17 @@ A paradigm is a way of thinking about how to organize code. Different paradigms 
 
 ## The Four Main Paradigms
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — programming paradigms comparison diagram imperative OOP functional procedural
+```mermaid
+graph TD
+    A[Programming Paradigms] --> B[Imperative]
+    A --> C[Object-Oriented]
+    A --> D[Functional]
+    A --> E[Procedural]
+    B --> B1["State + step-by-step instructions"]
+    C --> C1["Objects encapsulate state + behavior"]
+    D --> D1["Pure functions + immutable data"]
+    E --> E1["Sequence of commands"]
+```
 
 ### Imperative
 

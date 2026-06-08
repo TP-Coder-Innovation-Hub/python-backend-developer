@@ -10,7 +10,11 @@ Code works the same way. You write precise instructions, and the computer follow
 
 ## The Core Loop
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — input process output flow diagram arrows
+```mermaid
+flowchart LR
+    A[Input] --> B[Process]
+    B --> C[Output]
+```
 
 Every program ever written does three things:
 

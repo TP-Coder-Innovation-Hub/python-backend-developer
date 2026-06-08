@@ -6,7 +6,24 @@ Python is not always the right answer. Here is an honest comparison.
 
 ## Language Comparison
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — language comparison radar chart Python Go Rust Java Node
+```mermaid
+graph LR
+    subgraph Python
+        P1["Productivity: ★★★★★"]
+        P2["Performance: ★★"]
+        P3["Safety: ★★"]
+    end
+    subgraph Go
+        G1["Productivity: ★★★"]
+        G2["Performance: ★★★★"]
+        G3["Safety: ★★★"]
+    end
+    subgraph Rust
+        R1["Productivity: ★★"]
+        R2["Performance: ★★★★★"]
+        R3["Safety: ★★★★★"]
+    end
+```
 
 | Factor | Python | Go | Rust | Java | Node.js |
 |--------|--------|----|------|------|---------|

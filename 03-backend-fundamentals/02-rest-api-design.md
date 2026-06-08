@@ -23,7 +23,14 @@ Rules for URLs:
 
 ## HTTP Verbs Map to Actions
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — REST API URL mapping verbs CRUD operations table
+```mermaid
+graph LR
+    GET["GET /users"] --> R[Read all]
+    GET2["GET /users/1"] --> R2[Read one]
+    POST["POST /users"] --> C[Create]
+    PUT["PUT /users/1"] --> U[Update]
+    DELETE["DELETE /users/1"] --> D[Delete]
+```
 
 Combine the URL (the resource) with the HTTP method (the action):
 
