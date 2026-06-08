@@ -1,6 +1,6 @@
 # REST API Design
 
-`[Mid]`
+``
 
 REST (REpresentational State Transfer) is a convention for designing APIs over HTTP. It gives your API a predictable structure that clients (browsers, mobile apps, other services) can understand.
 
@@ -22,6 +22,8 @@ Rules for URLs:
 - Keep it shallow: avoid more than 2 levels of nesting. If `/users/42/orders/5/items/3` feels deep, use `/orders/5/items/3` with a filter.
 
 ## HTTP Verbs Map to Actions
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — REST API URL mapping verbs CRUD operations table
 
 Combine the URL (the resource) with the HTTP method (the action):
 

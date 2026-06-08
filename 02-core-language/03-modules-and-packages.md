@@ -1,6 +1,6 @@
 # Modules and Packages
 
-`[Entry]`
+``
 
 A module is a file containing Python code. A package is a directory of modules. They let you organize code into reusable pieces instead of one giant file.
 

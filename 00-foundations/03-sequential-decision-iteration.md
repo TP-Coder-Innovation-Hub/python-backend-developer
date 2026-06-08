@@ -1,6 +1,6 @@
 # Sequence, Decision, Iteration
 
-`[Entry]`
+``
 
 Every program ever written -- from a one-line script to the entire Google infrastructure -- is built from exactly three constructs:
 

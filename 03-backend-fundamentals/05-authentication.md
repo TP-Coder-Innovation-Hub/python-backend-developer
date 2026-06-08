@@ -1,6 +1,6 @@
 # Authentication
 
-`[Mid]`
+``
 
 Authentication proves **who you are**. Authorization decides **what you can do**. These are different things, and both matter.
 

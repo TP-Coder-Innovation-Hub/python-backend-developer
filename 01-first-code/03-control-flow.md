@@ -1,6 +1,6 @@
 # Control Flow
 
-`[Entry]`
+``
 
 Control flow determines which code runs and how many times. Without it, every program would execute top-to-bottom, every time. Control flow lets your program make decisions and repeat work.
 

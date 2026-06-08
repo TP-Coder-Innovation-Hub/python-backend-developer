@@ -1,6 +1,6 @@
 # Error Handling
 
-`[Entry]`
+``
 
 Programs fail. Networks drop, files disappear, users type wrong data. Error handling is how your program deals with these failures without crashing.
 

@@ -1,6 +1,6 @@
 # Variables and Types
 
-`[Entry]`
+``
 
 Variables store data. Types describe what kind of data. Python figures out the type automatically (dynamic typing), but you still need to understand what's happening.
 

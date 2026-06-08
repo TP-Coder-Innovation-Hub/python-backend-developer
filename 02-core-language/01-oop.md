@@ -1,6 +1,6 @@
 # Object-Oriented Programming
 
-`[Entry]`
+``
 
 OOP organizes code by grouping related data and behavior into objects. An object is a self-contained unit that knows its own state (data) and can perform actions (methods).
 
@@ -114,6 +114,8 @@ print(isinstance(cat, Animal))  # True
 `Cat` gets `__init__` from `Animal` automatically. It overrides `speak` with its own implementation.
 
 ## Composition
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — inheritance vs composition UML class diagram Car Engine
 
 Often better than inheritance: objects contain other objects instead of inheriting from them.
 

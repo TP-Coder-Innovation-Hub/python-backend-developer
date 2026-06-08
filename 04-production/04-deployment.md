@@ -1,6 +1,6 @@
 # Deployment
 
-`[Mid]`
+``
 
 Deployment is how your code gets from your machine to a server where users can access it. Docker and CI/CD are the standard approach.
 

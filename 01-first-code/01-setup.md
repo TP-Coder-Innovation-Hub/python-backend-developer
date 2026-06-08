@@ -1,6 +1,6 @@
 # Setup
 
-`[Entry]`
+``
 
 Get Python running on your machine. This takes about 10 minutes.
 

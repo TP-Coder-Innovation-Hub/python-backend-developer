@@ -1,6 +1,6 @@
 # Logging and Monitoring
 
-`[Mid]`
+``
 
 You can't fix what you can't see. Logging tells you what your application is doing. Monitoring tells you when something goes wrong.
 

@@ -1,6 +1,6 @@
 # Functions
 
-`[Entry]`
+``
 
 A function is a reusable block of code with a name. You define it once, call it anywhere.
 

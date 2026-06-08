@@ -1,6 +1,6 @@
 # Configuration
 
-`[Mid]`
+``
 
 Hardcoded values (database URLs, API keys, port numbers) in your source code are a problem. They change between environments (development, staging, production) and secrets shouldn't be in git. Configuration externalizes these values.
 

@@ -1,10 +1,12 @@
 # Why Python, Why Not X
 
-`[Mid]`
+``
 
 Python is not always the right answer. Here is an honest comparison.
 
 ## Language Comparison
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — language comparison radar chart Python Go Rust Java Node
 
 | Factor | Python | Go | Rust | Java | Node.js |
 |--------|--------|----|------|------|---------|

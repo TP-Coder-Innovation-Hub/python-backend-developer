@@ -1,6 +1,6 @@
 # Your First API
 
-`[Entry]`
+``
 
 Build a working REST API in under 5 minutes using FastAPI.
 

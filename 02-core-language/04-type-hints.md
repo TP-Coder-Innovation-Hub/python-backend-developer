@@ -1,6 +1,6 @@
 # Type Hints
 
-`[Mid]`
+``
 
 Python is dynamically typed -- you don't have to declare types. But adding type hints to your code catches bugs, improves IDE support, and serves as documentation.
 

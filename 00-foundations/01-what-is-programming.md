@@ -1,6 +1,6 @@
 # What is Programming
 
-`[Entry]`
+``
 
 Programming is the act of writing instructions that a computer can execute. Nothing more, nothing less.
 
@@ -9,6 +9,8 @@ Think of a recipe. A recipe tells a cook exactly what to do, step by step: chop 
 Code works the same way. You write precise instructions, and the computer follows them exactly -- no guessing, no intuition.
 
 ## The Core Loop
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — input process output flow diagram arrows
 
 Every program ever written does three things:
 

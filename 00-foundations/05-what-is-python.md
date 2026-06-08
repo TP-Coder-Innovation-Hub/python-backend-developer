@@ -1,6 +1,6 @@
 # What is Python
 
-`[Entry]`
+``
 
 Python is a high-level, general-purpose programming language created by Guido van Rossum and first released in 1991. It was designed with one overriding goal: make code readable.
 

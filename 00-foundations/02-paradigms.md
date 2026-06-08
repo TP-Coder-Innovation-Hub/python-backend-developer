@@ -1,10 +1,12 @@
 # Programming Paradigms
 
-`[Entry]`
+``
 
 A paradigm is a way of thinking about how to organize code. Different paradigms give you different tools for structuring your instructions.
 
 ## The Four Main Paradigms
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — programming paradigms comparison diagram imperative OOP functional procedural
 
 ### Imperative
 

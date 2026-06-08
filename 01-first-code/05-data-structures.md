@@ -1,6 +1,6 @@
 # Data Structures
 
-`[Entry]`
+``
 
 Data structures are containers for organizing data. Python has four built-in structures you'll use constantly.
 

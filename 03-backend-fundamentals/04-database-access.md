@@ -1,6 +1,6 @@
 # Database Access
 
-`[Mid]`
+``
 
 Most backend services store data in a database. You need to know SQL basics and how to interact with a database from Python.
 

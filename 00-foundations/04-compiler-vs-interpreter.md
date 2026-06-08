@@ -1,8 +1,10 @@
 # Compiler vs Interpreter
 
-`[Entry]`
+``
 
 Code is written for humans. Computers run machine code (1s and 0s). Something has to translate between the two. There are two main strategies: compiling and interpreting.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — compiler vs interpreter pipeline source code to machine code
 
 ## Compiled Languages
 

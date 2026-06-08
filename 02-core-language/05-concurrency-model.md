@@ -1,12 +1,14 @@
 # Concurrency Model
 
-`[Mid]`
+``
 
 Python gives you three main concurrency models. Choosing the right one is a critical backend engineering decision.
 
 ## The GIL (Global Interpreter Lock)
 
-`[Mid]`
+> 🖼️ **[IMAGE_PLACEHOLDER]** — Python concurrency models GIL threading multiprocessing asyncio
+
+``
 
 The GIL is a mutex that prevents multiple threads from executing Python bytecode simultaneously. Only one thread runs Python code at a time, even on a multi-core machine.
 
@@ -103,7 +105,7 @@ Step by step:
 
 ## TaskGroup (Python 3.11+)
 
-`[Senior]`
+``
 
 Structured concurrency -- all tasks complete or fail together:
 

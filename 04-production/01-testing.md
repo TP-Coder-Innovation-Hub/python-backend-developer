@@ -1,6 +1,6 @@
 # Testing
 
-`[Mid]`
+``
 
 Tests verify that your code works correctly. Without tests, you discover bugs in production. With tests, you discover bugs before they reach users.
 

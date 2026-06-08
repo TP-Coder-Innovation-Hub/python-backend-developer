@@ -1,6 +1,6 @@
 # HTTP and Web Servers
 
-`[Entry]`
+``
 
 When you type `https://example.com/users` into a browser and press Enter, here's what happens:
 
@@ -9,6 +9,8 @@ When you type `https://example.com/users` into a browser and press Enter, here's
 3. Your browser renders the response.
 
 HTTP (HyperText Transfer Protocol) is the language of the web. Every website, every API, every mobile app backend uses it.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — HTTP request response cycle browser server web server
 
 ## HTTP Request
 
