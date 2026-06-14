@@ -31,7 +31,7 @@ A practical learning path from zero to production-ready Python backend engineer.
 | 4. Production | [Logging and Monitoring](./04-production/02-logging-and-monitoring.md) | Mid |
 | 4. Production | [Configuration](./04-production/03-configuration.md) | Mid |
 | 4. Production | [Deployment](./04-production/04-deployment.md) | Mid |
-| 5. Capstone | [Project Spec](./05-capstone/README.md) | Mid |
+| 5. Workshop | [Project Spec](./05-workshop/README.md) | Mid |
 
 ## By the end of this path you will be able to:
 
