@@ -1,6 +1,6 @@
-# Capstone Design: Patient Management System
+# Workshop Design: Patient Management System
 
-> Companion to [01-capstone-spec.md](./01-capstone-spec.md). High-level and low-level design: diagrams, contracts, schemas. **How you organize your code is up to you** — the spec's ADR-2 mandates a service layer, but package/module layout is yours.
+> Companion to [01-workshop-spec.md](./01-workshop-spec.md). High-level and low-level design: diagrams, contracts, schemas. **How you organize your code is up to you** — the spec's ADR-2 mandates a service layer, but package/module layout is yours.
 
 ## Design Notes (read first)
 
