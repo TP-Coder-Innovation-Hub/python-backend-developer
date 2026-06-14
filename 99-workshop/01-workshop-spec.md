@@ -1,4 +1,4 @@
-# Capstone: Patient Management System
+# Workshop: Patient Management System
 
 ## Business Context
 
@@ -404,7 +404,7 @@ services:
 
 **Rationale:** The overlap logic is non-trivial (four overlap cases) and benefits from clear error messages. Database-level exclusion constraints are a valid alternative but reduce portability.
 
-**Consequences:** Race conditions are possible under concurrent requests. For production, add a database-level advisory lock or SERIALIZABLE isolation on the appointment insert. For this capstone, service-level checking is sufficient.
+**Consequences:** Race conditions are possible under concurrent requests. For production, add a database-level advisory lock or SERIALIZABLE isolation on the appointment insert. For this workshop, service-level checking is sufficient.
 
 ## Submission Checklist
 
