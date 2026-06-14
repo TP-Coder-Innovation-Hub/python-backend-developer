@@ -2,7 +2,7 @@
 
 ## Context
 
-This repo is part of the TP Coder Innovation Hub learning platform. It serves as a directory-per-topic learning path for Python backend development. Content is organized into numbered directories from foundations through capstone, with `README.md` as the navigation page.
+This repo is part of the TP Coder Innovation Hub learning platform. It serves as a directory-per-topic learning path for Python backend development. Content is organized into numbered directories from foundations through workshop, with `README.md` as the navigation page.
 
 ## Audience
 
@@ -143,7 +143,7 @@ python-backend-developer/
     02-logging-and-monitoring.md     # Structured logging, health checks
     03-configuration.md              # Environment variables, .env, settings classes
     04-deployment.md                 # Docker, CI/CD, cloud deployment
-  05-capstone/                       # Final project
+  05-workshop/                       # Final project
     README.md                        # Project spec: Task Management API
 ```
 
